@@ -1,0 +1,235 @@
+/* ESTILOS DEL BODY */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    /*Interlineado de texto espaciado*/
+}
+
+/* ESTILOS DEL HEADER */
+
+header {
+    background-color:#020202;
+    padding: 1em 0;
+}
+.bordesImgLogo{
+    border: 2px solid white;
+}
+
+
+/* ESTILOS DEL NAV */
+nav {
+    background-color: #e8187a;
+    margin-bottom: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 16.2%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul li a.activo {
+    background-color: #4c76a5;
+}
+/* ESTILOS DEL FOOTER */
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.holder {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* MEDIA QUERYS  */
+
+
+
+/* ESTILOS DEL HOME  */
+.tamañoImgHome{
+    width: 960px;
+    height: 300px;
+}
+h2{
+    font-weight: 400;
+    margin: 0 0 1em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.homeimg {
+    margin-bottom: 1.5em;
+}
+.columnas{
+    overflow: hidden;
+}
+.bienvenidos, .testimonios{
+    box-sizing: border-box;
+}
+.testimonios{
+    width: 75%;
+    padding-right: 2em;
+}
+.testimonios{
+    width: 25%;
+}
+.testimonio{
+    background-color: #ccc;
+    padding: 1em;
+    width: 100%;
+}
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+.testimonio .autor{
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+/* ESTILOS DE PAGE PRODUCTOS */
+.tamaño {
+    width: 300px;
+    height: 300px;
+}
+main h2{
+    font-weight: 400;
+}
+
+main h3{
+    font-weight: 200;
+}
+.estiloBtn{
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    position: relative;
+    left: 6rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+/* CONTENEDOR DE IMAGENES POR PRODUCTO */
+.contenedor{
+    /* background-color: #4c76a5; */
+    width: 960px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+/* TITULOS DE CADA PRODUCTO */
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+div a{
+    text-decoration: none;
+    color: darkslategrey;
+    font-size: 14px;
+}
+/* ESTILOS DE PROMOS */
+#tamañoPromo{
+    width: 480px;
+}
+
+/* ESTILOS DE PAGE CONTACTO */
+.contacto{
+    display: flex;
+    gap:24px;
+}
+.contacto div{
+    width: 100%;
+}
+.datos p{
+    font-size: 14px;
+}
+.datos ul{
+    list-style: none;
+}
+.datos ul li{
+    font-size: 13px;
+}
+.formulario p{
+    display: flex;
+}
+.formulario p label{
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+}
+.formulario p input,
+.formulario p textarea{
+    width: 100%;
+}
+.formulario p input,
+.formulario p textarea{
+    background: #ddd;
+    border-radius: 5px;
+    border:1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+.formulario p:nth-child(4){
+    align-items: start;
+}
+.formulario input[type="submit"]{
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color:white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position:relative;
+    left:6rem;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
+
+}
+
+
