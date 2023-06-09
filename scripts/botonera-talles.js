@@ -49,3 +49,19 @@ function modoNocturno(){
         }
     }
 }
+
+function modoNormal(){
+
+    document.body.style.backgroundColor = "white";
+
+    for(let i =1; i < table.length;i++){
+        table[i].style.color="black";
+
+        if(i%2==0){
+            table[i].style.backgroundColor = "white";
+        }
+        else{
+            table[i].style.backgroundColor = "white";
+        }
+    }
+}
